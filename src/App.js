@@ -1,10 +1,24 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./components/Header";
+import Product from "./components/Product";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Hello react js</header>
+      <Header />
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <Product />
+          </div>
+          <div className="col-md-4">
+            <Product />
+          </div>
+          <div className="col-md-4">
+            <Product />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
