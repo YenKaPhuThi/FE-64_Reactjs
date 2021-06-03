@@ -1,8 +1,13 @@
-import PractiseComponents from "./components/Practise/PractiseComponents";
+import Student from "./components/BindingData/Student";
+
+// import PractiseComponents from "./components/Practise/PractiseComponents";
 function App() {
   return (
     <div className="App">
-      <PractiseComponents />
+      {/* <PractiseComponents /> */}
+      <div className="container">
+        <Student />
+      </div>
     </div>
   );
 }
