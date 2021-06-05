@@ -8,8 +8,8 @@ function App() {
     <div className="App">
       {/* <PractiseComponents /> */}
       <div className="container">
-        <Student />
-        <Event />
+        {/* <Student />
+        <Event /> */}
         <ConditionIf />
       </div>
     </div>
