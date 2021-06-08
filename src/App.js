@@ -1,6 +1,7 @@
 import Event from "./components/BindingData/Event";
 import Student from "./components/BindingData/Student";
 import ConditionIf from "./components/ConditionIf/ConditionIf";
+import PractiseState from "./components/ConditionIf/PractiseState";
 
 // import PractiseComponents from "./components/Practise/PractiseComponents";
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Student />
         <Event />
         <ConditionIf />
+        <PractiseState />
       </div>
     </div>
   );
